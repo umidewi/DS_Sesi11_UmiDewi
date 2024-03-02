@@ -6,7 +6,6 @@ const element = {
 }
 
 class HomePage extends Page {
-    //get iconCart () { return $('.shopping_cart_link'); }
 
     async validateHomePage() {
         await expect(browser).toHaveUrlContaining('/inventory.html')
