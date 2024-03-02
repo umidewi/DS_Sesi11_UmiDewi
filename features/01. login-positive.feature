@@ -1,7 +1,7 @@
 @digital-skola @login
 Feature: Swag Labs - Login - Positive
 
-  @positive
+  @positivelogin
   Scenario: As a standard_user, I want to log in successfully
     Given Umi is on the login page
     When Umi login with "standard_user" credential

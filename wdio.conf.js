@@ -19,6 +19,9 @@ exports.config = {    //
     }, {
         maxInstances: 1,
         browserName: 'firefox'
+    }, {
+        maxInstances: 1,
+        browserName: 'edge'
     }],
     baseUrl: 'https://www.saucedemo.com/',
     logLevel: 'info',
