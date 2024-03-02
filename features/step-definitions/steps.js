@@ -55,10 +55,6 @@ When (/^Umi click continue$/, async() => {
     await productdetailpage.checkoutOverview()
 })
 
-When (/^Umi click finish$/, async() => {
-    
-})
-
 Then (/^Umi should see thank you page$/, async() => {
      await productdetailpage.thankyouPage()
 })
